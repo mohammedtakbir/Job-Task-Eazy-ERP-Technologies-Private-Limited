@@ -63,48 +63,6 @@ const Speakers = () => {
                             </Link>
                         ))
                     }
-                    {/* <Link to="" aria-label="View Item">
-                        <div className="relative overflow-hidden transition duration-200 transform rounded shadow-lg hover:-translate-y-2 hover:shadow-2xl">
-                            <img
-                                className="object-cover w-full h-56 md:h-64 xl:h-80"
-                                src="https://images.pexels.com/photos/3182750/pexels-photo-3182750.jpeg?auto=compress&amp;cs=tinysrgb&amp;dpr=2&amp;h=750&amp;w=1260"
-                                alt=""
-                            />
-                            <div className="absolute inset-x-0 bottom-0 px-6 py-4 bg-black bg-opacity-75">
-                                <p className="text-sm font-medium tracking-wide text-white">
-                                    Leverage agile frameworks to provide a robust synopsis
-                                </p>
-                            </div>
-                        </div>
-                    </Link>
-                    <Link to="" aria-label="View Item">
-                        <div className="relative overflow-hidden transition duration-200 transform rounded shadow-lg hover:-translate-y-2 hover:shadow-2xl">
-                            <img
-                                className="object-cover w-full h-56 md:h-64 xl:h-80"
-                                src="https://images.pexels.com/photos/3182746/pexels-photo-3182746.jpeg?auto=compress&amp;cs=tinysrgb&amp;dpr=2&amp;h=750&amp;w=1260"
-                                alt=""
-                            />
-                            <div className="absolute inset-x-0 bottom-0 px-6 py-4 bg-black bg-opacity-75">
-                                <p className="text-sm font-medium tracking-wide text-white">
-                                    Dingy I'm tellin' you rhubaahb Bangah Jo-Jeezly
-                                </p>
-                            </div>
-                        </div>
-                    </Link>
-                    <Link to="" aria-label="View Item">
-                        <div className="relative overflow-hidden transition duration-200 transform rounded shadow-lg hover:-translate-y-2 hover:shadow-2xl">
-                            <img
-                                className="object-cover w-full h-56 md:h-64 xl:h-80"
-                                src="https://images.pexels.com/photos/3184296/pexels-photo-3184296.jpeg?auto=compress&amp;cs=tinysrgb&amp;dpr=2&amp;h=750&amp;w=1260"
-                                alt=""
-                            />
-                            <div className="absolute inset-x-0 bottom-0 px-6 py-4 bg-black bg-opacity-75">
-                                <p className="text-sm font-medium tracking-wide text-white">
-                                    Rough pomfret lemon shark plownose chimaera
-                                </p>
-                            </div>
-                        </div>
-                    </Link> */}
                 </div>
                 <div className="text-center">
                     <Link
