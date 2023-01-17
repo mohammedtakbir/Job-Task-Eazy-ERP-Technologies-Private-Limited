@@ -18,18 +18,20 @@ const Sponsors = () => {
     ]
 
     return (
-        <div className='max-w-[1200px] mx-auto'>
-            <h1 className='font-bold text-center text-4xl'>Thanks to our sponsors.</h1>
-            <div className='my-7 grid grid-cols-1 xl:grid-cols-4 md:grid-cols-3 gap-5 text-center'>
-                {
-                    sponsors.map((sponsor, i) => (
-                        <div key={i} className='flex items-center flex-col hover:scale-110 duration-500 cursor-pointer'>
-                            <img className='mb-2 w-[200px] h-[200px]' src={sponsor.img} alt="" />
-                        </div>
-                    ))
-                }
+        <section id='sponsors'>
+            <div className='max-w-[1200px] mx-auto md:mt-16 mt-14 md:mb-12 mb-2'>
+                <h1 className='font-bold text-center sm:text-4xl text-3xl pb-3'>Thanks to our sponsors.</h1>
+                <div className='md:my-7 grid grid-cols-1 xl:grid-cols-4 md:grid-cols-3 gap-5 text-center'>
+                    {
+                        sponsors.map((sponsor, i) => (
+                            <div key={i} className='flex items-center flex-col hover:scale-110 duration-500 cursor-pointer'>
+                                <img className='mb-2 w-[200px] h-[200px]' src={sponsor.img} alt="" />
+                            </div>
+                        ))
+                    }
+                </div>
             </div>
-        </div>
+        </section>
     );
 };
 

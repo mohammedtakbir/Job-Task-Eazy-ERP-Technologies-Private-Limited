@@ -1,4 +1,5 @@
 import React from 'react';
+import About from '../About/About';
 import Banner from '../Banner/Banner';
 import FavoriteEvent from '../FavoriteEvent/FavoriteEvent';
 import JoinWithEmail from '../JoinWithEmail/JoinWithEmail';
@@ -12,6 +13,7 @@ const Home = () => {
             <FavoriteEvent />
             <Speakers />
             <Sponsors />
+            <About />
             <JoinWithEmail />
         </div>
     );

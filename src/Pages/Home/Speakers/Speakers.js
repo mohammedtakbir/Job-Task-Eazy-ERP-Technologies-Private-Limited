@@ -27,8 +27,8 @@ const Speakers = () => {
     ]
 
     return (
-        <div>
-            <div className="px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20">
+        <section id='speakers' className='bg-gray-50'>
+            <div className="px-4 sm:py-16 pt-12 pb-12 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20">
                 <div className="flex flex-col lg:justify-between lg:flex-row">
                     <h2 className="max-w-lg mb-5 font-sans text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl sm:leading-none md:mb-6 group">
                         <span className="inline-block mb-1 sm:mb-4">
@@ -36,7 +36,7 @@ const Speakers = () => {
                         </span>
                         <div className="h-1 ml-auto duration-300 origin-left transform bg-deep-purple-accent-400 scale-x-30 group-hover:scale-x-100" />
                     </h2>
-                    <p className="text-gray-700 lg:text-sm lg:max-w-md">
+                    <p className="text-gray-700 lg:text-sm lg:max-w-md lg:mb-0 mb-5">
                         <button className='sm:px-5 px-4 sm:py-[10px] py-[8px] border-[#d5d5d5] border-2 
                         rounded-3xl hover:bg-[#d5d5d5] hover:text-[#333] duration-300'>View All Speakers</button>
                     </p>
@@ -81,7 +81,7 @@ const Speakers = () => {
                     </Link>
                 </div>
             </div>
-        </div>
+        </section>
     );
 };
 
